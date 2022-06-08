@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.container-1{
+    width: 30%;
+    height: 100vh;
+    background-color:blue;
+    color: white;
+}
+.container-1 div{
+    width: 60%;
+    padding:30px
+}
+
+img{
+    width: 300px;
+    height: 250px;
+}
+.container-2{
+    padding: 100px;
+    width: 70%;
+    height: 100vh;
+}
+
+h2{
+    margin-bottom: 50px;
+}
+
+p{
+    margin:20px 0;
+}
+
+form input{
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+    display:block;
+}
+
+form label{
+    color: green;
+}
+
+#agreement-2{
+    margin: 20px 0;
+}
+
+input[type="submit"]{
+    background-color: blue;
+    color: white;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    border-bottom: 50px;
+    cursor: pointer;
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
